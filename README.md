@@ -80,8 +80,4 @@ The Fibonacci sequence begins with the numbers 0 and 1. The third number in the 
 ## Dependencies
 - Make ServiceNow Version is Paris or newer release. (May see inconsistencies in older versions)
 
-<a href="http://stackoverflow.com" target="_blank">Go</a>
-
-
-
 
