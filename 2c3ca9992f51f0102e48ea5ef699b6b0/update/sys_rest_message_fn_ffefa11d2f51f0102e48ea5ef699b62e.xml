@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Get Fibonacci Sequence</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Fibonacci Sequence [ Get Fibonacci Sequence ]</qualified_name>
+        <rest_endpoint>https://dev73775.service-now.com/api/x_90235_fib/v1/fibonacci_sequence/${number}</rest_endpoint>
+        <rest_message display_value="Fibonacci Sequence">645fe55d2f51f0102e48ea5ef699b6bc</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 08:11:51</sys_created_on>
+        <sys_id>ffefa11d2f51f0102e48ea5ef699b62e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Fibonacci Sequence</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sys_rest_message_fn_ffefa11d2f51f0102e48ea5ef699b62e</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 08:15:11</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

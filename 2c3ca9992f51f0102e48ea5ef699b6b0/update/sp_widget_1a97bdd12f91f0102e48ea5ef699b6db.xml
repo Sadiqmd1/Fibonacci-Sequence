@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.center {&#13;
+  display: block;&#13;
+  margin-left: auto;&#13;
+  margin-right: auto;&#13;
+  width: 50%;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>fib_img</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Fibonacci Img</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 08:46:23</sys_created_on>
+        <sys_id>1a97bdd12f91f0102e48ea5ef699b6db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Fibonacci Img</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sp_widget_1a97bdd12f91f0102e48ea5ef699b6db</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 08:48:13</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  
+   <img src="fibseq.gif" width="414" height="363"  alt="Fibonacci Sequence!"class="center"/>
+</div>]]></template>
+    </sp_widget>
+</record_update>

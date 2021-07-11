@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Open Service Portal Page">782702112fd1f0102e48ea5ef699b619</copied_from>
+        <description>Open Fibonacci Sequence page in the Fibonacci Sequence portal</description>
+        <display_name>Open Service Portal Page</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:22:32</sys_created_on>
+        <sys_id>7c9b92d12f15f0102e48ea5ef699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sys_atf_step_7c9b92d12f15f0102e48ea5ef699b63b</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:22:32</sys_updated_on>
+        <table/>
+        <test display_value="Fibonacci page - Negative">7c9b92d12f15f0102e48ea5ef699b637</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=7c9b92d12f15f0102e48ea5ef699b63b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7c9b92d12f15f0102e48ea5ef699b63b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:22:32</sys_created_on>
+        <sys_id>7c9b92d12f15f0102e48ea5ef699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:22:32</sys_updated_on>
+        <value>9624b1512f91f0102e48ea5ef699b6be</value>
+        <variable display_value="">5a7e65d577332300e46abe41a91061cb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7c9b92d12f15f0102e48ea5ef699b63b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:22:32</sys_created_on>
+        <sys_id>b89b92d12f15f0102e48ea5ef699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:22:32</sys_updated_on>
+        <value/>
+        <variable display_value="">839e29d577332300e46abe41a9106134</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7c9b92d12f15f0102e48ea5ef699b63b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:22:32</sys_created_on>
+        <sys_id>f09b92d12f15f0102e48ea5ef699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:22:32</sys_updated_on>
+        <value>be35fd512f91f0102e48ea5ef699b60f</value>
+        <variable display_value="">ca8ea5d577332300e46abe41a91061b6</variable>
+    </sys_variable_value>
+</record_update>

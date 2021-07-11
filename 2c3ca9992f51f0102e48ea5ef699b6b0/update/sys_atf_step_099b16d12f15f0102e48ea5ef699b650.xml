@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Click Component (Custom UI)">aa479a9d2fd1f0102e48ea5ef699b625</copied_from>
+        <description>Click the component: 'Button &lt;button&gt;: Submit'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"370f9cae4078a42c3a49ba87c9998287":"{\"area\":\"Fibonacci Sequence\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Submit\",\"inner_text\":\"Submit\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Submit in page area Fibonacci Sequence\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Submit\",\"type\":\"submit\",\"version\":\"18.0\",\"get_value_result\":\"Submit\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Submit\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"370f9cae4078a42c3a49ba87c9998287\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:22:32</sys_created_on>
+        <sys_id>099b16d12f15f0102e48ea5ef699b650</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sys_atf_step_099b16d12f15f0102e48ea5ef699b650</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:22:32</sys_updated_on>
+        <table/>
+        <test display_value="Fibonacci page - Negative">7c9b92d12f15f0102e48ea5ef699b637</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=099b16d12f15f0102e48ea5ef699b650"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>099b16d12f15f0102e48ea5ef699b650</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:22:32</sys_created_on>
+        <sys_id>099b16d12f15f0102e48ea5ef699b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:22:32</sys_updated_on>
+        <value>370f9cae4078a42c3a49ba87c9998287</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

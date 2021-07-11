@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;button&gt;: Submit'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"370f9cae4078a42c3a49ba87c9998287":"{\"area\":\"Fibonacci Sequence\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Submit\",\"inner_text\":\"Submit\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Submit in page area Fibonacci Sequence\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Submit\",\"type\":\"submit\",\"version\":\"18.0\",\"get_value_result\":\"Submit\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Submit\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"370f9cae4078a42c3a49ba87c9998287\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 09:33:04</sys_created_on>
+        <sys_id>c972ca1d2f91f0102e48ea5ef699b660</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sys_atf_step_c972ca1d2f91f0102e48ea5ef699b660</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 09:38:52</sys_updated_on>
+        <table/>
+        <test display_value="Fibonacci API - Positive">05ddfd192f91f0102e48ea5ef699b6cf</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=c972ca1d2f91f0102e48ea5ef699b660"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c972ca1d2f91f0102e48ea5ef699b660</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 09:33:04</sys_created_on>
+        <sys_id>9182461d2f91f0102e48ea5ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 09:33:04</sys_updated_on>
+        <value>370f9cae4078a42c3a49ba87c9998287</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</application>
+        <file_path/>
+        <instance_id>db9abd6fdb7b2f44387021c4059619ff</instance_id>
+        <instance_name>dev73775</instance_name>
+        <name>sys_atf_step_c972ca1d2f91f0102e48ea5ef699b660</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Click the component: 'Button &lt;button&gt;: Submit'</description><display_name>Click Component (Custom UI)</display_name><inputs/><mugshots_cache_json>{"370f9cae4078a42c3a49ba87c9998287":"{\"area\":\"Fibonacci Sequence\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Submit\",\"inner_text\":\"Submit\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Submit in page area Fibonacci Sequence\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Submit\",\"type\":\"submit\",\"version\":\"18.0\",\"get_value_result\":\"Submit\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Submit\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"370f9cae4078a42c3a49ba87c9998287\"}"}</mugshots_cache_json><notes/><order>4</order><snapshot/><step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>sadiq</sys_created_by><sys_created_on>2021-07-11 09:33:04</sys_created_on><sys_id>c972ca1d2f91f0102e48ea5ef699b660</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Click Component (Custom UI)</sys_name><sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package><sys_policy/><sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope><sys_update_name>sys_atf_step_c972ca1d2f91f0102e48ea5ef699b660</sys_update_name><sys_updated_by>sadiq</sys_updated_by><sys_updated_on>2021-07-11 09:38:52</sys_updated_on><table/><test display_value="Fibonacci API - Positive">05ddfd192f91f0102e48ea5ef699b6cf</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c972ca1d2f91f0102e48ea5ef699b660"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c972ca1d2f91f0102e48ea5ef699b660</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sadiq</sys_created_by><sys_created_on>2021-07-11 09:33:04</sys_created_on><sys_id>9182461d2f91f0102e48ea5ef699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sadiq</sys_updated_by><sys_updated_on>2021-07-11 09:33:04</sys_updated_on><value>370f9cae4078a42c3a49ba87c9998287</value><variable display_value="">ee05588b73730300c79260bdfaf6a749</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1293045208</payload_hash>
+        <record_name>Click Component (Custom UI)</record_name>
+        <reverted_from/>
+        <source>f4bc2d992f51f0102e48ea5ef699b6e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 09:38:52</sys_created_on>
+        <sys_id>aad3429d2f91f0102e48ea5ef699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a94ef0e840000001</sys_recorded_at>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 09:38:52</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>e2d3429d8f91f010bffe3fed0b2260ab</update_guid>
+        <update_guid_history>e2d3429d8f91f010bffe3fed0b2260ab:1293045208,33c3ca5db291f010910d24651a60d3ea:1431219967,98c3029d2491f010ab12c34efa1a8175:1293045208,d982461d9291f01075905f80b65b71fd:28676119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:26:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>655593fb83074120a8736fa012976591</sys_id>
+        <sys_metadata>c972ca1d2f91f0102e48ea5ef699b660</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_scope_delete display_value="">3162ae31ba3546a0ab5815b972391229</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c972ca1d2f91f0102e48ea5ef699b660</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c972ca1d2f91f0102e48ea5ef699b660">aad3429d2f91f0102e48ea5ef699b6ab</sys_update_version>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:26:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

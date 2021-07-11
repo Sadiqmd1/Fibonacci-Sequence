@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>My New Test</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 09:21:51</sys_created_on>
+        <sys_id>c8ff75992f91f0102e48ea5ef699b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My New Test</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sys_atf_test_c8ff75992f91f0102e48ea5ef699b6e8</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 09:21:51</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=c8ff75992f91f0102e48ea5ef699b6e8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</application>
+        <file_path/>
+        <instance_id>db9abd6fdb7b2f44387021c4059619ff</instance_id>
+        <instance_name>dev73775</instance_name>
+        <name>sys_atf_test_c8ff75992f91f0102e48ea5ef699b6e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>My New Test</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>sadiq</sys_created_by><sys_created_on>2021-07-11 09:21:51</sys_created_on><sys_id>c8ff75992f91f0102e48ea5ef699b6e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My New Test</sys_name><sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package><sys_policy/><sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope><sys_update_name>sys_atf_test_c8ff75992f91f0102e48ea5ef699b6e8</sys_update_name><sys_updated_by>sadiq</sys_updated_by><sys_updated_on>2021-07-11 09:21:51</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=c8ff75992f91f0102e48ea5ef699b6e8"/></record_update>]]></payload>
+        <payload_hash>160176359</payload_hash>
+        <record_name>My New Test</record_name>
+        <reverted_from/>
+        <source>f4bc2d992f51f0102e48ea5ef699b6e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 09:21:51</sys_created_on>
+        <sys_id>8dffbd992f91f0102e48ea5ef699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a94df794f0000001</sys_recorded_at>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 09:21:51</sys_updated_on>
+        <type>Test</type>
+        <update_guid>c5ffbd996b91f010c9712a20a7b7fc36</update_guid>
+        <update_guid_history>c5ffbd996b91f010c9712a20a7b7fc36:160176359</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:27:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>36c67d67fddc49b4975c61ee8b9374d9</sys_id>
+        <sys_metadata>c8ff75992f91f0102e48ea5ef699b6e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My New Test</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_scope_delete display_value="">3162ae31ba3546a0ab5815b972391229</sys_scope_delete>
+        <sys_update_name>sys_atf_test_c8ff75992f91f0102e48ea5ef699b6e8</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_c8ff75992f91f0102e48ea5ef699b6e8">8dffbd992f91f0102e48ea5ef699b636</sys_update_version>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:27:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>In this we are sending an input number as -5 and result should give me a bad request and a message to input a positive number</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Fibonacci API - Negative</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 09:16:32</sys_created_on>
+        <sys_id>35aeb5592f91f0102e48ea5ef699b6f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Fibonacci API - Negative</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sys_atf_test_35aeb5592f91f0102e48ea5ef699b6f6</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 09:21:10</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=35aeb5592f91f0102e48ea5ef699b6f6"/>
+</record_update>

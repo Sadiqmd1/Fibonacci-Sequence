@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+ /* widget controller */
+ var c = this;
+ 
+ c.add = function() {
+ c.data.action = "addMessage";
+ c.server.update().then(function(){
+ c.data.action = undefined;
+// c.data.message = "";
+ })
+ }
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css> p.gfg { &#13;
+   word-break: break-all; &#13;
+   } &#13;
+&#13;
+&#13;
+.text-left {&#13;
+  text-align: left;&#13;
+}&#13;
+&#13;
+.btn-success{&#13;
+ color: white;&#13;
+}&#13;
+&#13;
+&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>fibonacci_sequence</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Fibonacci Sequence</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	data.messages = []; 
+	if (input) {
+		data.messages = input.messages;
+		if (input.action == "addMessage") { // Enter inside when user clicks on submit button
+			var fib = new x_90235_fib.FibonacciSequenceUtils(); // Calling a Script include 
+			var fibResult = fib.getFibonacci(input.message); // Passing the integer received from an input to the function
+			data.responseBody = fibResult; //returning the result and sending back to html template to display the result
+	
+		}
+
+	} 
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 08:35:00</sys_created_on>
+        <sys_id>7a35fd512f91f0102e48ea5ef699b60c</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Fibonacci Sequence</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sp_widget_7a35fd512f91f0102e48ea5ef699b60c</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:20:12</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-success">
+   <div class="panel-heading text-center">Code Screen Project: Fibonacci Sequence</div>
+
+  <div class="panel-footer text-center">
+  
+ <h5 class="text-left">Please enter the number</h5>
+    <div class="input-group">
+ 
+      <input type="number" id="number" ng-model="c.data.message" class="form-control" >
+      <div class="input-group-btn">
+        <button type="submit" ng-click="c.add()" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+ 
+  </div>
+  <div class="panel-body m-b-n">
+    
+   <p class= "gfg"> <b> Result: </b>  {{ data.responseBody}} </p>
+     
+  </div>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Fibonacci page - Positive">a386c2112fd1f0102e48ea5ef699b627</copied_from>
+        <description>In this we are validating from the Fibonacci Sequence portal, we input the negative number as -1 and result should be it gives the error message</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Fibonacci page - Negative</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>sadiq</sys_created_by>
+        <sys_created_on>2021-07-11 11:22:32</sys_created_on>
+        <sys_id>7c9b92d12f15f0102e48ea5ef699b637</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Fibonacci page - Negative</sys_name>
+        <sys_package display_value="Fibonacci Sequence" source="x_90235_fib">2c3ca9992f51f0102e48ea5ef699b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Sequence">2c3ca9992f51f0102e48ea5ef699b6b0</sys_scope>
+        <sys_update_name>sys_atf_test_7c9b92d12f15f0102e48ea5ef699b637</sys_update_name>
+        <sys_updated_by>sadiq</sys_updated_by>
+        <sys_updated_on>2021-07-11 11:23:02</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=7c9b92d12f15f0102e48ea5ef699b637"/>
+</record_update>
