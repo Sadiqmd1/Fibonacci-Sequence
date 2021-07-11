@@ -71,7 +71,7 @@ The Fibonacci sequence begins with the numbers 0 and 1. The third number in the 
 
 ## Features
 - Fibonacci Application is a build-in Public API, any user can use this without an account in ServiceNow
-  - [Fibonacci Sequence open source](https://dev73775.service-now.com/fibseq){:target="_blank"}
+  - [Fibonacci Sequence open source](https://dev73775.service-now.com/fibseq)
 - Any thrid party tool can use this api to retun the fibonacci sequence number
 	- [Positive result](https://dev73775.service-now.com/api/x_90235_fib/fibonacci_sequence/10) **Enter the postive integer number in the url**
 	- [Negative result](https://dev73775.service-now.com/api/x_90235_fib/fibonacci_sequence/-1) **Enter the negative integer number in the url**
