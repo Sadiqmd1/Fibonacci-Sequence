@@ -22,7 +22,7 @@ The Fibonacci sequence begins with the numbers 0 and 1. The third number in the 
 
    Studio displays the Import from Source Control fields.
 ![import](https://user-images.githubusercontent.com/87241330/125196763-a3faaf00-e278-11eb-9a33-c5c3f6a0922f.png)
-4. [Click here to more about importing a github file.](https://docs.servicenow.com/bundle/paris-application-development/page/build/applications/task/t_ImportAppFromSourceControl.html)
+4. [Click here to know more on how to importing a github file in servicenow.](https://docs.servicenow.com/bundle/paris-application-development/page/build/applications/task/t_ImportAppFromSourceControl.html)
 5. Once successfully installed, update sets will be automatically commited in your ServiceNow instance.
 
 
@@ -39,19 +39,16 @@ The Fibonacci sequence begins with the numbers 0 and 1. The third number in the 
    Application offer's ATF (Automated Test Framework). It has four Tests written two positive and two negative. 
    **(Open the test and click on Run Test. System will open a Test client runner run based on the Test steps written and goto Test results to view the results also screenshots will be attached.)** 
    
-   a) Fibonacci page - Positive 
-   
-   b) Fibonacci page - Negative
-   
-   c) Fibonaaci API - Positive
-   
-   d) Fibonaaci API - Negative
+- Fibonacci page - Positive 
+- Fibonacci page - Negative
+- Fibonaaci API - Positive
+- Fibonaaci API - Negative
     
  #### How to run the ATF Test's
 1. Navigate to Automated Test Framework > Tests and search for Fibonacci in the Name field
 ![image](https://user-images.githubusercontent.com/87241330/125198760-dc9e8680-e280-11eb-8706-19b6a8afbc4d.png)
 
-2. Open the Test and click on Run Test. *Make sure Enable Test / Test suite execution property is enabled
+2. Open the Test and click on Run Test. **Make sure Enable Test / Test suite execution property is enabled**
 ![image](https://user-images.githubusercontent.com/87241330/125199069-2f2c7280-e282-11eb-83c4-bb299ed7cf35.png)
 
 3. Test runs based on the Test steps and give you the results as shown below.
