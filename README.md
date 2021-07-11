@@ -73,6 +73,7 @@ The Fibonacci sequence begins with the numbers 0 and 1. The third number in the 
 	- [Positive result](https://dev73775.service-now.com/api/x_90235_fib/fibonacci_sequence/10) **Enter the postive integer number in the url**
 	- [Negative result](https://dev73775.service-now.com/api/x_90235_fib/fibonacci_sequence/-1) **Enter the negative integer number in the url**
   - API accepts both JSON, XML request OR response
+  - This app is compatable in **Web, Tablet, Mobile device**
 
 ## Dependencies
 - Make ServiceNow Version is Paris or newer release. (May see inconsistencies in older versions)
