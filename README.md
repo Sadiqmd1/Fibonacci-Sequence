@@ -20,8 +20,8 @@ The Fibonacci sequence begins with the numbers 0 and 1. The third number in the 
 3. Click **Import from Source Control**
 
 
-   Studio displays the Import from Source Control fields.
-![import](https://user-images.githubusercontent.com/87241330/125196763-a3faaf00-e278-11eb-9a33-c5c3f6a0922f.png)
+   Studio displays the Import from Source Control fields. **Make sure you give "master" in the branch field**
+![image](https://user-images.githubusercontent.com/87241330/125201845-83d5ea80-e28e-11eb-8f66-c7c45618718e.png)
 4. [Click here to know more on how to importing a github file in servicenow.](https://docs.servicenow.com/bundle/paris-application-development/page/build/applications/task/t_ImportAppFromSourceControl.html)
 5. Once successfully installed, update sets will be automatically commited in your ServiceNow instance.
 
